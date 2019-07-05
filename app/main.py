@@ -29,18 +29,5 @@ def index():
 
 
 
-# def main():
-#     data = open('log').read()
-#
-#     pattern = r'\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}'
-#     ips = re.findall(pattern, data)
-#
-#     result = Counter(ips).most_common(10)
-#
-#     for key, value in result:
-#         print(str(key) + ' - ' + str(value))
-
-
-
 if __name__ == '__main__':
     app.run(debug=True)
